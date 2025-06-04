@@ -1,0 +1,181 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 9,
+    "passes": 3,
+    "pending": 0,
+    "failures": 6,
+    "start": "2025-06-04T10:00:17.958Z",
+    "end": "2025-06-04T10:00:18.526Z",
+    "duration": 568
+  },
+  "tests": [
+    {
+      "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: scuberGreetingForFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:6:7)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "scuberGreetingForFeet is not defined"
+      }
+    },
+    {
+      "title": "charges 20 dollars for a distance between 400 and 2000 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() charges 20 dollars for a distance between 400 and 2000 feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: scuberGreetingForFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:10:7)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "scuberGreetingForFeet is not defined"
+      }
+    },
+    {
+      "title": "charges 30 dollars for a distance over 2000 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() charges 30 dollars for a distance over 2000 feet",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: scuberGreetingForFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:14:7)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "scuberGreetingForFeet is not defined"
+      }
+    },
+    {
+      "title": "does not allow rides over 2500 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: scuberGreetingForFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:18:7)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "scuberGreetingForFeet is not defined"
+      }
+    },
+    {
+      "title": "returns \"Ok, sounds good.\" when the city is NYC",
+      "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: ternaryCheckCity is not defined\n    at Context.<anonymous> (test/indexTest.js:24:7)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "ternaryCheckCity is not defined"
+      }
+    },
+    {
+      "title": "should return \"No go.\" if the destination city is not NYC",
+      "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: ternaryCheckCity is not defined\n    at Context.<anonymous> (test/indexTest.js:28:7)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "ternaryCheckCity is not defined"
+      }
+    },
+    {
+      "title": "should return \"Thank you so much.\" if the tip is generous",
+      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return \"Thank you.\" if the tip is not as generous",
+      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return \"Bye.\" if anything else",
+      "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: scuberGreetingForFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:6:7)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "scuberGreetingForFeet is not defined"
+      }
+    },
+    {
+      "title": "charges 20 dollars for a distance between 400 and 2000 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() charges 20 dollars for a distance between 400 and 2000 feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: scuberGreetingForFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:10:7)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "scuberGreetingForFeet is not defined"
+      }
+    },
+    {
+      "title": "charges 30 dollars for a distance over 2000 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() charges 30 dollars for a distance over 2000 feet",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: scuberGreetingForFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:14:7)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "scuberGreetingForFeet is not defined"
+      }
+    },
+    {
+      "title": "does not allow rides over 2500 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: scuberGreetingForFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:18:7)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "scuberGreetingForFeet is not defined"
+      }
+    },
+    {
+      "title": "returns \"Ok, sounds good.\" when the city is NYC",
+      "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: ternaryCheckCity is not defined\n    at Context.<anonymous> (test/indexTest.js:24:7)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "ternaryCheckCity is not defined"
+      }
+    },
+    {
+      "title": "should return \"No go.\" if the destination city is not NYC",
+      "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: ternaryCheckCity is not defined\n    at Context.<anonymous> (test/indexTest.js:28:7)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "ternaryCheckCity is not defined"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "should return \"Thank you so much.\" if the tip is generous",
+      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return \"Thank you.\" if the tip is not as generous",
+      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return \"Bye.\" if anything else",
+      "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
